@@ -1,0 +1,47 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do Decodificador_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {C:/Users/a.barbosa/Documents/GitHub/SistemasDigitais/Aula6/AndreBarbosa_Decodificador/Decodificador.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Decodificador
+# -- Compiling architecture Comportamento of Decodificador
+# 
+vcom -reportprogress 300 -work work C:/Users/a.barbosa/Documents/GitHub/SistemasDigitais/Aula6/AndreBarbosa_Decodificador/simulation/modelsim/Decodificador.vht
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Decodificador_vhd_tst
+# -- Compiling architecture Decodificador_arch of Decodificador_vhd_tst
+vsim work.decodificador_vhd_tst
+# vsim work.decodificador_vhd_tst 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.decodificador_vhd_tst(decodificador_arch)
+# Loading work.decodificador(comportamento)
+add wave -position insertpoint sim:/decodificador_vhd_tst/*
+add wave sim:/decodificador_vhd_tst/*
+add wave sim:/decodificador_vhd_tst/*
+run -all
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/a.barbosa/Documents/GitHub/SistemasDigitais/Aula6/AndreBarbosa_Decodificador/simulation/modelsim/wave.do
+vcom -reportprogress 300 -work work C:/Users/a.barbosa/Documents/GitHub/SistemasDigitais/Aula6/AndreBarbosa_Decodificador/simulation/modelsim/Decodificador.vht
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Decodificador_vhd_tst
+# -- Compiling architecture Decodificador_arch of Decodificador_vhd_tst
+run -all

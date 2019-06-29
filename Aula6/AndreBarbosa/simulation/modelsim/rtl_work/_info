@@ -1,0 +1,75 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\a.barbosa\Documents\GitHub\SistemasDigitais\Aula6\AndreBarbosa\simulation\modelsim
+Egeradorparidade
+Z1 w1561767077
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\Users\a.barbosa\Documents\GitHub\SistemasDigitais\Aula6\AndreBarbosa\simulation\modelsim
+Z5 8C:/Users/a.barbosa/Documents/GitHub/SistemasDigitais/Aula6/AndreBarbosa/GeradorParidade.vhd
+Z6 FC:/Users/a.barbosa/Documents/GitHub/SistemasDigitais/Aula6/AndreBarbosa/GeradorParidade.vhd
+l0
+L5
+V<5XE735BGfn]O7RaDI`2;2
+Z7 OV;C;10.1d;51
+31
+Z8 !s108 1561768695.356000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/a.barbosa/Documents/GitHub/SistemasDigitais/Aula6/AndreBarbosa/GeradorParidade.vhd|
+Z10 !s107 C:/Users/a.barbosa/Documents/GitHub/SistemasDigitais/Aula6/AndreBarbosa/GeradorParidade.vhd|
+Z11 o-93 -work work -O0
+Z12 tExplicit 1
+!s100 jQo_HGYRmQBV8h@X9X<oc3
+!i10b 1
+Acomportamental
+R2
+R3
+DEx4 work 15 geradorparidade 0 22 <5XE735BGfn]O7RaDI`2;2
+l11
+L10
+VGcEE>PB>F3ET:W]KMggBH2
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 `0Elj?f=z7aRdmONI5<YF2
+!i10b 1
+Egeradorparidade_vhd_tst
+Z13 w1561768437
+R2
+R3
+R4
+Z14 8C:/Users/a.barbosa/Documents/GitHub/SistemasDigitais/Aula6/AndreBarbosa/simulation/modelsim/GeradorParidade.vht
+Z15 FC:/Users/a.barbosa/Documents/GitHub/SistemasDigitais/Aula6/AndreBarbosa/simulation/modelsim/GeradorParidade.vht
+l0
+L30
+VVNLA0im^fkICa<]bz9G;h2
+!s100 Fb3fec>[jUlN_TbdnIkz]0
+R7
+32
+!i10b 1
+Z16 !s108 1561768766.960000
+Z17 !s90 -reportprogress|300|-work|work|C:/Users/a.barbosa/Documents/GitHub/SistemasDigitais/Aula6/AndreBarbosa/simulation/modelsim/GeradorParidade.vht|
+Z18 !s107 C:/Users/a.barbosa/Documents/GitHub/SistemasDigitais/Aula6/AndreBarbosa/simulation/modelsim/GeradorParidade.vht|
+Z19 o-work work -O0
+R12
+Ageradorparidade_arch
+R2
+R3
+DEx4 work 23 geradorparidade_vhd_tst 0 22 VNLA0im^fkICa<]bz9G;h2
+l49
+L32
+VOgL^@Z<G37UJ09KWKB`o71
+!s100 YARBNROi<AIRO3l[Y>MFa0
+R7
+32
+!i10b 1
+R16
+R17
+R18
+R19
+R12

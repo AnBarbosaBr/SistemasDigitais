@@ -1,0 +1,15 @@
+library ieee;
+
+use ieee.std_logic_1164.all;
+
+entity GeradorParidade is 
+	port(A3, A2, A1, A0: in std_logic;
+			P: out std_logic);
+end GeradorParidade;
+
+architecture Comportamental of GeradorParidade is
+begin
+	P <= A3 xor A2 xor A1 xor A0;
+end Comportamental
+
+			

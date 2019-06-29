@@ -1,0 +1,75 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\a.barbosa\Documents\GitHub\SistemasDigitais\Aula6\AndreBarbosa_Decodificador\simulation\modelsim
+Edecodificador
+Z1 w1561770573
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\Users\a.barbosa\Documents\GitHub\SistemasDigitais\Aula6\AndreBarbosa_Decodificador\simulation\modelsim
+Z5 8C:/Users/a.barbosa/Documents/GitHub/SistemasDigitais/Aula6/AndreBarbosa_Decodificador/Decodificador.vhd
+Z6 FC:/Users/a.barbosa/Documents/GitHub/SistemasDigitais/Aula6/AndreBarbosa_Decodificador/Decodificador.vhd
+l0
+L5
+VCBLo6EhA7ed`^FG99]U720
+Z7 OV;C;10.1d;51
+31
+Z8 !s108 1561771366.512000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/a.barbosa/Documents/GitHub/SistemasDigitais/Aula6/AndreBarbosa_Decodificador/Decodificador.vhd|
+Z10 !s107 C:/Users/a.barbosa/Documents/GitHub/SistemasDigitais/Aula6/AndreBarbosa_Decodificador/Decodificador.vhd|
+Z11 o-93 -work work -O0
+Z12 tExplicit 1
+!s100 HVQ5Kb0l[7^74S:0g6lT[3
+!i10b 1
+Acomportamento
+R2
+R3
+DEx4 work 13 decodificador 0 22 CBLo6EhA7ed`^FG99]U720
+l13
+L10
+VLW5C=]FQnAHTMn[m88ZWD1
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 :H_S>@di9jOdk729S9H<[2
+!i10b 1
+Edecodificador_vhd_tst
+Z13 w1561771688
+R2
+R3
+R4
+Z14 8C:/Users/a.barbosa/Documents/GitHub/SistemasDigitais/Aula6/AndreBarbosa_Decodificador/simulation/modelsim/Decodificador.vht
+Z15 FC:/Users/a.barbosa/Documents/GitHub/SistemasDigitais/Aula6/AndreBarbosa_Decodificador/simulation/modelsim/Decodificador.vht
+l0
+L30
+V6D7VoQ@j8JUYIMn;8QEi<2
+!s100 _8WoZMdPH@N56n3@5>k0H2
+R7
+32
+!i10b 1
+Z16 !s108 1561771962.283000
+Z17 !s90 -reportprogress|300|-work|work|C:/Users/a.barbosa/Documents/GitHub/SistemasDigitais/Aula6/AndreBarbosa_Decodificador/simulation/modelsim/Decodificador.vht|
+Z18 !s107 C:/Users/a.barbosa/Documents/GitHub/SistemasDigitais/Aula6/AndreBarbosa_Decodificador/simulation/modelsim/Decodificador.vht|
+Z19 o-work work -O0
+R12
+Adecodificador_arch
+R2
+R3
+Z20 DEx4 work 21 decodificador_vhd_tst 0 22 6D7VoQ@j8JUYIMn;8QEi<2
+l59
+L32
+VjlVRWHbZh7?080`I^2QTg2
+!s100 ?N1_H]<>TaoSbboXkmLI<0
+R7
+32
+!i10b 1
+R16
+R17
+R18
+R19
+R12

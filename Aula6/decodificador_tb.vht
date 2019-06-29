@@ -1,0 +1,98 @@
+-- Copyright (C) 1991-2013 Altera Corporation
+-- Your use of Altera Corporation's design tools, logic functions 
+-- and other software and tools, and its AMPP partner logic 
+-- functions, and any output files from any of the foregoing 
+-- (including device programming or simulation files), and any 
+-- associated documentation or information are expressly subject 
+-- to the terms and conditions of the Altera Program License 
+-- Subscription Agreement, Altera MegaCore Function License 
+-- Agreement, or other applicable license agreement, including, 
+-- without limitation, that your use is for the sole purpose of 
+-- programming logic devices manufactured by Altera and sold by 
+-- Altera or its authorized distributors.  Please refer to the 
+-- applicable agreement for further details.
+
+-- ***************************************************************************
+-- This file contains a Vhdl test bench template that is freely editable to   
+-- suit user's needs .Comments are provided in each section to help the user  
+-- fill out necessary details.                                                
+-- ***************************************************************************
+-- Generated on "06/28/2019 22:14:52"
+                                                            
+-- Vhdl Test Bench template for design  :  Decodificador
+-- 
+-- Simulation tool : ModelSim-Altera (VHDL)
+-- 
+
+LIBRARY ieee;                                               
+USE ieee.std_logic_1164.all;                                
+
+ENTITY Decodificador_vhd_tst IS
+END Decodificador_vhd_tst;
+ARCHITECTURE Decodificador_arch OF Decodificador_vhd_tst IS
+-- constants                                                 
+-- signals                                                   
+SIGNAL A : STD_LOGIC;
+SIGNAL B : STD_LOGIC;
+SIGNAL C : STD_LOGIC;
+SIGNAL D : STD_LOGIC;
+SIGNAL E : STD_LOGIC;
+SIGNAL En : STD_LOGIC;
+SIGNAL F : STD_LOGIC;
+SIGNAL G : STD_LOGIC;
+SIGNAL S0 : STD_LOGIC;
+SIGNAL S1 : STD_LOGIC;
+COMPONENT Decodificador
+	PORT (
+	A : OUT STD_LOGIC;
+	B : OUT STD_LOGIC;
+	C : OUT STD_LOGIC;
+	D : OUT STD_LOGIC;
+	E : OUT STD_LOGIC;
+	En : IN STD_LOGIC;
+	F : OUT STD_LOGIC;
+	G : OUT STD_LOGIC;
+	S0 : IN STD_LOGIC;
+	S1 : IN STD_LOGIC
+	);
+END COMPONENT;
+BEGIN
+	i1 : Decodificador
+	PORT MAP (
+-- list connections between master ports and signals
+	A => A,
+	B => B,
+	C => C,
+	D => D,
+	E => E,
+	En => En,
+	F => F,
+	G => G,
+	S0 => S0,
+	S1 => S1
+	);
+init : PROCESS                                               
+-- variable declarations                                     
+BEGIN 
+		En <= '1'; S0 <= '0'; S1 <= '0'; 
+		wait for 200 ns;
+		En <= '1'; S0 <= '0'; S1 <= '1'; 
+		wait for 200 ns;
+		En <= '1'; S0 <= '1'; S1 <= '0'; 
+		wait for 200 ns;
+		En <= '1'; S0 <= '1'; S1 <= '1'; 
+		wait for 200 ns;
+		En <= '0'; S0 <= '0'; S1 <= '0'; 
+		wait for 200 ns;
+
+WAIT;                                                       
+END PROCESS init;                                           
+always : PROCESS                                              
+-- optional sensitivity list                                  
+-- (        )                                                 
+-- variable declarations                                      
+BEGIN                                                         
+        -- code executes for every event on sensitivity list  
+WAIT;                                                        
+END PROCESS always;                                          
+END Decodificador_arch;
